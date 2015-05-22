@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script type="text/javascript" src="/js/jquery.jmp3.js"></script>
+		 
+		 <script type="text/javascript">
+			$(document).ready(function(){
+				// default options
+				$(".mp3").jmp3();
+				// custom options
+				$("#mysong").jmp3({
+					backcolor: "000000",
+					forecolor: "00ff00",
+					width: 200,
+					showdownload: "true"
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+ 
+  <p>Listen to this sound:<br /><span id="sound" class="mp3">sound.mp3</span></p>
+
+	</body>
+</html>

@@ -1,0 +1,13 @@
+-- --------------------------------------------------------
+
+--
+-- 테이블 구조 `Word_Eng`
+--
+
+CREATE TABLE IF NOT EXISTS `Word_Eng` (
+  `word` varchar(50) NOT NULL,
+  `mean1` varchar(50) NOT NULL,
+  `mean2` varchar(50) NOT NULL,
+  `date` date NOT NULL,
+  `flag` tinyint(4) NOT NULL DEFAULT '0'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
